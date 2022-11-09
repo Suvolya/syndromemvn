@@ -1,5 +1,6 @@
 package ru.netology.statistic;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -19,7 +20,7 @@ public class StatisticsServiceTest {
     }
 
     @Test
-    void findAverageMax() {
+    void findMaxFromMiddle() {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {12, 5, 88, 4, 5, 3, 8, 6, 11, 11, 12};
